@@ -1,0 +1,19 @@
+{
+	"name": "DestinationDataset_7sf",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "output",
+				"container": "adftutorial"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
